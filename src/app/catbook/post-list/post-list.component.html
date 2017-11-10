@@ -1,0 +1,11 @@
+
+<h2>Posts : </h2>
+<ul>
+  <li *ngFor="let postBoucle of posts, let i = index">
+    <a [routerLink]="[i+1]"
+       (mouseover)= onClicked(postBoucle)>
+      {{postBoucle.content}}</a> - posté par {{postBoucle.userId}}
+
+  </li>
+</ul>
+{{message}}
