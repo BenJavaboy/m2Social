@@ -1,3 +1,7 @@
+Project Catbook
+Benjamin GAGNAIRE 
+M2 DL
+
 # M2Social
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.2.

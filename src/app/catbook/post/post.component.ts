@@ -35,7 +35,7 @@ export class PostComponent implements OnInit {
   }
 
   ngOnInit() {
-     //this.service.getUser(0).subscribe(user => this.user = user.firstName);
+     // this.service.getUser(0).subscribe(user => this.user = user.firstName);
   }
 
 }
